@@ -114,25 +114,55 @@ Cependant, afin de permettre au plus grand nombre d’utiliser notre moteur dans
 
 ## Environnement de réalisation 
 
-### Langages et API utilises
+### Langages et API utilisees
 
 #### C++11
 
+AGE est developpe en C++11, nouvelle norme pour le langage C++.
+
+Cette version offre au moteur et a ses utilisateurs une plus grande flexibilite de developpement.
+
+De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure lisibilite et facilite la maintenance du code.
+
+// @ Antho, tu complete, c'est toi le Koala
+
 #### OpenGL 4.3
 
+// @ Dorian/Paul, tu complete
+
 #### HLSL
+
+// @ Dorian/Paul, tu complete
 
 ### Plateformes et outils de developpement
 
 #### Windows x64
 
+AGE est developpe sur Windows 8.1, dans sa version 64 bits.
+
+En effet, les derniers pilotes graphiques sont developpes pour la plateforme Windows 8.
+De plus, AGE etant pense pour etre utilise sur une architecture 64 bits (il sera tout de meme compatible avec les architecture 32 bits), il est necessaire de disposer d'un environnement de developpement 64 bits.
+
 #### Visual studio 2013
+
+AGE est developpe a l'aide de l'IDE (Integrated Development Environment) Visual Studio. Nous utilisons la derniere version de celui-ci (2013) car elle apporte de nombreuse fonctionnalites indispensable au projet AGE.
+En effet, celle-ci, en plus d'offrir de nouveaux outils de debugging, supporte la compilation du C++11 essentielle au fronctionnement du moteur de jeux.
 
 #### CodeXL
 
+Nous utilisons CodeXL, un outil de debugging sur GPU gratuit, developpe et maintenu par l'entreprise AMD.
+
+Ce logiciel offre beaucoup de fonctionnalites essentielles au developpement sur carte graphique, parmis lesquels :
+- Detection des erreurs OpenGL
+- Break points
+- Edit and continue sur les shaders
+- Inspection des FBO et des VBO au runtime
+
 #### Git
 
-Vous listerez ici les outils, les normes, les contraintes de votre environnement de réalisation. 
+Git est un outils de versionning, specifiquement concu pour faciliter d'une part la sauvegarde de l'historique de production, et d'autre part, la collaboration entre developpeurs sur un meme projet.
+
+// TODO : Descrtiption des fonctionnalites de Git
 
 ## Environnement matériel 
 
@@ -140,15 +170,23 @@ Vous listerez ici les outils, les normes, les contraintes de votre environnement
 
 #### Ordinateur moderne
 
-- CPU pour compilation
-- SSD pour visual studio
-- GPU puissant pour calcul GPU
+AGE etant destine aux architectures materieles modernes, il est necessaire pour son developpement de travailler sur un ordinateur recent.
+Par consequenent, la majorite des developpeurs d'AGE disposent d'un ordinateur reunissant :
+- Un processeur multicoeur (Intel I5 / I7) accelerant le temps de compilation.
+- Un disque dur SSD approtant a Visual Studio 2013 un meilleur temps de reponse pour l'autocompletion.
+- Une carte graphique recente et puissante permettant le calcul GPU et l'affichage d'effets complexes a l'ecran.
 
-#### Occulus Rift
+#### Oculus Rift
+
+L'Oculus Rift etant integre au projet, il nous est necessaire de disposer d'un Oculus pour le developpement d'AGE. Par consquent, nous avons commande un kit de developpement Oculus, et sommes en attente de sa livraison.
+
+L'Oculus que nous allons utiliser sera le dernier prototype (Mars 2014). Cela nous permettra d'integrer a AGE les dernieres fonctionnalites offertent par le produit.
 
 #### Periqueriques de controle
 
 ##### Xbox Controller
+
+De maniere a augmenter l'immersion des joueurs, AGE integrera le support de la manette Xbox. Par consequent l'equipe de developpement du moteur a en sa possession plusieurs des ces produits.
 
 ##### Razer hydra (on le tente ou pas ?)
 
