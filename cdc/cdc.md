@@ -130,7 +130,7 @@ De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure l
 
 // @ Dorian/Paul, tu complete
 
-#### HLSL
+#### GLSL
 
 // @ Dorian/Paul, tu complete
 
