@@ -6,7 +6,7 @@
 
 ### Presentation d'Epitech
 
-Fondée en 1999, Epitech est une école d'informatique proposant aux étudiants une pédagogie innovante. Cette dernière, axée sur la pratique, cherche à former des étudiants autonomes, à travers la réalisation de projets concrets.
+Fondée en 1999, Epitech est une école d'informatique proposant aux étudiants une pédagogie innovante. Cette dernière, axée sur la pratique, cherche à former des individus autonomes, à travers la réalisation de projets concrets.
 
 Ces travaux permettent aux étudiants de se confronter à des problématiques techniques, méthodologiques et organisationnelles :
 
@@ -18,7 +18,7 @@ Ces travaux permettent aux étudiants de se confronter à des problématiques te
 
 L’Epitech Innovative Project est un projet de groupe, de la troisième à la cinquième année, permettant de valider le master de l’Epitech.
 
-Les étudiants sont chargés de se réunir en groupe. Le choix du projet est libre - ils ont la possibilité de reprendre un projet existant ou de développer une idée innovante. La réussite de l’EIP sera évaluée sur la capacité des étudiants à concevoir, réaliser et présenter leur projet. Tout au long de sa réalisation, de nombreux suivis ont lieu, permettant de guider les groupes dans leur progression.
+Les étudiants sont chargés de se réunir en groupe. Le choix du projet est libre - ils ont la possibilité de reprendre un projet existant ou de développer une idée innovante. La réussite de l’EIP sera évaluée sur leurs capacité à concevoir, réaliser et présenter leur projet. Tout au long de sa réalisation, de nombreux suivis ont lieu, permettant de guider les groupes dans leur progression.
 
 Le but de l’EIP est de permettre aux étudiants de mener un projet dans son intégralité : étude de l'existant, mise en place d’un cahier des charges, conception, réalisation, communication, marketing etc.
 
@@ -80,7 +80,10 @@ De plus, nous procéderons à une intégration complète du moteur physique open
 
 #### Open Source
 
-// TODO
+AGE est un moteur 3D open source dont le code est et restera disponible à tous.
+Il est aujourd'hui accessible sur GitHub en dépo public à l'adresse : https://github.com/Another-Game-Engine/AGE
+
+Ceci est possible en grande partie par les choix des technologies utilisé : OpenGL, Bullet, GLM, Sereal, ect sont toutes des technologies gratuitent et ouvertent.
 
 ### Les cibles
 
@@ -128,11 +131,18 @@ De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure l
 
 #### OpenGL 4.3
 
-// @ Dorian/Paul, tu complete
+Les versions openGL 4.x nous permettent de tiré profit des formidables ressources des GPU moderne. 
 
-#### GLSL
+En effet en grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que la donnée soit plus aisément utilisé par les calcules de la carte graphique. Voir carrément de supplanté certain librairie comme OpenCL en matière de possible d'utilisation de ce calcule avec le tout nouveau OpenGL Compute.
 
-// @ Dorian/Paul, tu complete
+Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcule massivement parallèle. Grace au soutien du constructeur AMD nous avons la possibiliter d'avoir des retours sur l'utilisation de ce materielle de plus en plus puissant et prometteur.
+
+#### GLSL 
+
+GLSL est un langage permettant l'écriture de shaders, nous l'utilison aujourd'hui à ça version 400.
+
+AGE a pour objectif de déporté un maximum de ses calcules en GLSL dans des shader, afin de les parallèlisés au maximum sur le GPU pour un traitement plus rapide.
+// à amèliorer
 
 ### Plateformes et outils de developpement
 
