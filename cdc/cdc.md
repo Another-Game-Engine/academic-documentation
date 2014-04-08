@@ -133,7 +133,8 @@ De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure l
 
 Les versions openGL 4.x nous permettent de tiré profit des formidables ressources des GPU moderne. 
 
-En effet en grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que la donnée soit plus aisément utilisé par les calcules de la carte graphique. Voir carrément de supplanté certain librairie comme OpenCL en matière de possible d'utilisation de ce calcule avec le tout nouveau OpenGL Compute.
+En effet en grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que les données soit plus aisément accessible par la carte graphique. 
+De plus certain de ces fonctionnalité comme le "compute" OpenGL permettent de supplanté certain librairie comme OpenCL en matière d'utilisation de GPU.
 
 Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcule massivement parallèle. Grace au soutien du constructeur AMD nous avons la possibiliter d'avoir des retours sur l'utilisation de ce materielle de plus en plus puissant et prometteur.
 
@@ -260,6 +261,22 @@ votre projet (depuis l’environnement de développement à l’environnement de
 ##### Reverb
 
 ### Le moteur graphique
+
+#### High Dynamic Range
+
+#### Dynamic Shadow Mapping
+
+#### Anti-Aliasing
+
+#### Tile Base rendering
+
+##### deffered rendering
+
+##### foward rendering
+
+#### Reflection Mapping
+
+#### Particle Effect
 
 ### Les outils d'editions
 
