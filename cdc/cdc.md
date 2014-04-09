@@ -80,10 +80,12 @@ De plus, nous procéderons à une intégration complète du moteur physique open
 
 #### Open Source
 
-AGE est un moteur 3D open source dont le code est et restera disponible à tous.
+// TODO ! TROUVER UNE LICENCE
+
+AGE est un moteur 3D open source dont le code est disponible à tous pour consultation, édition et utilisation.
 Il est aujourd'hui accessible sur GitHub en dépo public à l'adresse : https://github.com/Another-Game-Engine/AGE
 
-Ceci est possible en grande partie par les choix des technologies utilisé : OpenGL, Bullet, GLM, Sereal, ect sont toutes des technologies gratuitent et ouvertent.
+Ceci est possible en grande partie par le choix des technologies utilisé : OpenGL, Bullet, GLM, Cereal, etc (technologies gratuites et ouvertes).
 
 ### Les cibles
 
@@ -131,19 +133,19 @@ De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure l
 
 #### OpenGL 4.3
 
-Les versions openGL 4.x nous permettent de tiré profit des formidables ressources des GPU moderne. 
+Les versions openGL 4.x nous permettent de tirer profit des formidables ressources des GPU modernes. 
 
-En effet en grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que les données soit plus aisément accessible par la carte graphique. 
-De plus certain de ces fonctionnalité comme le "compute" OpenGL permettent de supplanté certain librairie comme OpenCL en matière d'utilisation de GPU.
+En effet un grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que les données soit plus aisément accessible par la carte graphique. 
+De plus certaines de ses fonctionnalités - telles que le "compute" OpenGL - permettent de supplanter certaines librairies comme OpenCL en matière d'utilisation GPU.
 
-Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcule massivement parallèle. Grace au soutien du constructeur AMD nous avons la possibiliter d'avoir des retours sur l'utilisation de ce materielle de plus en plus puissant et prometteur.
+Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcul massivement parallel. Grace au soutien du constructeur AMD nous avons la possibilité d'avoir des retours sur l'utilisation de ce materiel de plus en plus puissant et prometteur.
 
 #### GLSL 
 
-GLSL est un langage permettant l'écriture de shaders, nous l'utilison aujourd'hui à ça version 400.
+GLSL est un langage permettant l'écriture de shaders, nous l'utilison aujourd'hui dans sa version 400.
 
-AGE a pour objectif de déporté un maximum de ses calcules en GLSL dans des shader, afin de les parallèlisés au maximum sur le GPU pour un traitement plus rapide.
-// à amèliorer
+AGE a pour objectif de déporter un maximum de ses calculs en GLSL dans des shaders, afin de les parallèliser au maximum sur le GPU pour un traitement plus rapide.
+// à améliorer
 
 ### Plateformes et outils de developpement
 
