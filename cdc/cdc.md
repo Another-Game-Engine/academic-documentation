@@ -318,7 +318,7 @@ votre solution, mais aussi votre mécanisme de staging.
 
 Afin de favorisé la communication durant le dévelloppement, nous utiliserons le système d'Issue et de Milestones proposé par GitHub. Chaques nouvelle implementation, mise à jour ou débuggage seront précédé par une issue assigné au membre de l'équipe concerné. Ceci permettra une bonne visibilité sur la totalité des taches à abattrent ainsi que de leur réalisation.
 
-Les Milestones, permettront de placer c'est issue dans un contexte de temps afain d'imposer des échéances au diverses parties du projet.
+Les Milestones permettront de placer ces issues dans un contexte de temps afin d'imposer des échèances au diverses parties du projet.
 
 ##### Pull request
 
@@ -331,14 +331,12 @@ Le reste du dévelloppement se fera sur des branches parallêles.
 ##### Wiki
 
 Le Wiki comprendra deux genres de documentation:
-- En premier lieu, un plan détailler de l'architecture du moteur ainsi que de c'est divers fonctionnalité et de leur utilisation.
-Cette documentation a pour objectif d'aider les utilisateurs potentiel à prendre en main le moteur de jeu.
-- ensuite une documentation aux objectif plus axé "recherche et dévellopement", qui décrira le fonctionnement certaine implémentation plus complexe comme par exemple "Tile Foward rendering".
-Afin de pouvoir soumettre au interressé un retour d'experience sur les problème rencontrer, les solution apporté et le résultat obtenus.
+- En premier lieu, un plan détailler de l'architecture du moteur ainsi que de c'est divers fonctionnalité et de leur utilisation. Cette documentation a pour objectif d'aider les utilisateurs potentiel à prendre en main le moteur de jeu.
+- ensuite une documentation aux objectif plus axé "recherche et dévellopement", qui décrira le fonctionnement certaine implémentation plus complexe comme par exemple "Tile Foward rendering". Afin de pouvoir soumettre au interressé un retour d'experience sur les problème rencontrer, les solution apporté et le résultat obtenus.
 
 #### Google Mailing List
 
-Afin de communiquer efficace par mail, nous avons mis en place grace au outil google une mailling list baptisé ageproject.
+Afin de communiquer efficacement par mail, nous avons mis en place grâce aux outils googles une mailling list baptisé Ageproject.
 
 La quasi totalité de notre communication interne se fera soit part cette ML, soit par Hang Out.
 
