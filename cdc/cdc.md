@@ -264,21 +264,27 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ### Le moteur graphique
 
-#### High Dynamic Range
+#### High Dynamic Range (HDR)
+
+le HDR est un post effet permettant de simuler, et cela dynamiquement, le fonctionnement de la rétine lors d'un éblouissement.
 
 #### Dynamic Shadow Mapping
 
+Technique permettant la mise en place d'ombre réaliste calculer dynamiquement.
+
+#### Reflection Mapping
+
+Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un mirroir et cela à 360° sur 180°.
+
 #### Anti-Aliasing
+
+Afin de réduire le crénelage de notre géomètrie dans nos images de rendus, nous appliquerons l'alogorithme FXAA ainsi que le sampling MSAA.
 
 #### Tile Base rendering
 
 ##### deffered rendering
 
 ##### foward rendering
-
-#### Reflection Mapping
-
-#### Particle Effect
 
 ### Les outils d'editions
 
