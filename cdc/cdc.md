@@ -274,7 +274,7 @@ Technique permettant la mise en place d'ombre réaliste calculer dynamiquement.
 
 #### Reflection Mapping
 
-Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un mirroir et cela à 360° sur 180°.
+Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un mirroir et cela de maniére sphèrique.
 
 #### Anti-Aliasing
 
@@ -302,19 +302,49 @@ votre solution, mais aussi votre mécanisme de staging.
 
 ##### SDL
 
+La SDL est une bibliothéque graphique multiplate-forme libre est totalement gratuite sur ça version 1.x. Son utilisation dans notre moteur est principalement : la création de fenêtre et la gestion des événements clavier/souris.
+
 ##### Bullet
+
+Bullet est un moteur physique permettant la gestion des interactions entre divers corps dans un environement 3D.
+Il comprend dans ses nombreuses fonctionnalitées :
+- Collisions
+- Rigidbody
+- Culling d'objet
+- // Cesar complète ou corrige :)
+Tout comme la SDL il est sous licence zlib et alloue à ses utilisateurs une utilisation libre.
+
 
 ##### FBX SDK
 
+Kit de dévellopement permettant le chargement de modèle FBX. Le modèles FBX est un format de fichiers contenant toutes les informations nécessaire à la réalisation d'objet 3D. Il comprend :
+- géométrie
+- couleur
+- normal
+- texture
+- animation
+- ect...
+Développé par autodesk il fait partie aujourd'hui des formats les plus utilisé au monde par les graphistes et animateur 3D.
+
 ##### Cereal
+
+// Cesar 
 
 ##### Oculus SDK
 
+L'oculus rift est un casque/lunnette de réalité augementé à destination du grand public. Cette outils se prèsente comme le périphèrique centrale de notre objectif d'immersivité. Ayant pour charge de renforcer l'expérience de l'utilisateur dans le virtuelle, l'oculus rift sera l'occasion pour AGE de mettre en valeur c'est effet graphique et physique d'une façon innovante et bien plus immersive.
+
 ##### FMOD
+
+// ça serait bien de pas en parler
 
 ##### GLM
 
+GLM est une libraire de mathématique quasiment integré à openGL. Elle nous permet d'effectuer tout nos calcules matricielle et contenir la plus part de nos donnée scalaire (position, normal, couleur ect).
+
 ##### FreeType
+
+// Cesar
 
 ### Technologies de gestion de projet
 
