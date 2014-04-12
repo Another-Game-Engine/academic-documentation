@@ -1,5 +1,10 @@
 # Resume du document
 
+Ce document contient la liste des besoins, des exigences et des contraintes qu'il faudra respecter lors de la réalisation du projet AGE. Il servira à donner une ligne de conduite à l’équipe de réalisation qui devra suivre son contenu.
+Le projet est d'abord décrit dans ton ensemble, puis nous exposons leur objectifs, les cibles visées sont ensuite citées, ainsi que les outils utilisés au cours du developpement. La description des différentes parties du programme montre ensuite de manière plus approfondie le travail qui sera effectué. 
+
+Pour finir, on listera les différents outils qui permettront à l’équipe d’avoir une organisation optimale.
+
 # Rappel de l’EIP 
 
 ## Objectifs de l’EIP et Epitech 
