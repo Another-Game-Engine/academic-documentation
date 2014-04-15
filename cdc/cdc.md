@@ -230,6 +230,8 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Les systemes
 
+##### Les prefabs
+
 #### Chargement et sauvegarde
 
 ##### Load and save threaded
@@ -237,17 +239,35 @@ votre projet (depuis l’environnement de développement à l’environnement de
 ##### Multi format
 - XML, JSON, Binary
 
+##### Threaded streaming d'entite
+
 #### La gestion de la physique
 
 ##### Integration des rigid bodys
 
 ##### Integration des joints
 
+##### Integration des softbody
+
+##### Integration des breakable body
+
+##### HotZones
+
+##### Character controller
+
+##### Demembration / Mutilation dynamique
+
+#### Gameplay
+
+##### NavMesh
+
 #### La gestion des assets
 
 ##### Les Textures
 
 ##### Les mesh de rendu
+
+##### Les animations
 
 ##### Les materials
 
@@ -259,6 +279,8 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Les modeles de "friction / bounciness ..."
 
+##### Level of details (simplification de mesh)
+
 #### Le son
 
 ##### Son 3D avec FMOD
@@ -266,6 +288,39 @@ votre projet (depuis l’environnement de développement à l’environnement de
 ##### Sound emitter / Sound reciever
 
 ##### Reverb
+
+##### Sound culling (blocage du son sur obstacle)
+
+#### GUI
+
+- Textarea
+- Textinput
+- Buttons (hover, mousedown, mouseup)
+- Slider range
+- Checkbox
+- Radio buttons
+
+##### 2D GUI
+
+##### 3D GUI
+
+#### Utils
+
+##### Tweening
+
+##### Bezier path
+
+##### Random
+
+##### Hashmaps
+
+##### Custom RTTI
+
+##### Configuration manager
+
+##### Evaluation du hardware et configuration des options en fonction de celui-ci
+
+##### Interfacage des inputs
 
 ### Le moteur graphique
 
@@ -290,6 +345,12 @@ Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliqu
 ##### deffered rendering
 
 ##### foward rendering
+
+#### Particles
+
+- GPU based
+- Vector fields
+- Interactive
 
 ### Les outils d'editions
 
