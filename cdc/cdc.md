@@ -294,8 +294,23 @@ Afin de réduire le crénelage de notre géomètrie dans nos images de rendus, n
 ### Les outils d'editions
 
 #### Editeur de niveau
+-> Edition de prefab
+-> Creation de scene
+-> Placement des entity et prefabs
+-> Configuration des systems dans les scene
+-> Configuration des des entity et components
 
-#### Editeur de mesh
+#### Convertisseur d'assets
+
+##### Gestion de la bibliotheque
+-> Serialisation Obj, Fbx, Tga, Mtl, Jpg, Png, Bullet, Fonts
+-> Edition Obj, Fbx, Mtl
+-> Generation des collider physiques
+
+##### Previsualisation
+
+-> Material, Mesh, Textures
+-> Physique
 
 Listez ici les systèmes, le stockage de données, et autres composants de votre solution. Vous devez 
 également décrire globalement les interactions et dépendances entre les grands composants de 
