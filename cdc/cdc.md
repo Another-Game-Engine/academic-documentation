@@ -132,12 +132,7 @@ AGE est developpe en C++11, nouvelle norme pour le langage C++.
 
 Cette version offre au moteur et a ses utilisateurs une plus grande flexibilite de developpement grace de nombreuses nouvelles fonctionnalités tout facilitant le developpement pour les débutants.
 
-Parmis les nombreuses nouvelles fonctionnalités ... (je continuerai plus tard desole)
-
-
-De plus, certaines simplifications syntaxiques du C++11 apportent un meilleure lisibilite et facilite la maintenance du code.
-
-// @ Antho, tu complete, c'est toi le Koala
+Parmis les nombreuses nouvelles fonctionnalités, ceux qui nous interessent particulièrement sont ceux permettant d'augmenter la rapidé du code (std::move, std::forward, ...) ainsi que les outils permettant de se passer au maximum de librairire exterieurs. En effet, dans ce nouveau standard, on été implémenté des fonctionnalités concernant l'interopérabilité des systèmes tel que les threads. Notre moteur ayant pour but d'être particulierement performant, ce fut un point important de notre choix vers cette technologie.
 
 #### OpenGL 4.3
 
