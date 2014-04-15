@@ -226,11 +226,25 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Les entites
 
+- Memory friendly (avoid cash miss)
+- Octree
+- Graphnode
+
 ##### Les composants
+
+- Memory friendly (avoid cash miss)
 
 ##### Les systemes
 
+- Updated in different threads
+
 ##### Les prefabs
+
+##### Les filtres
+
+- Update unsecrure thread
+- Update secured thread
+- Memory pool for entity holders
 
 #### Chargement et sauvegarde
 
@@ -251,9 +265,13 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Integration des breakable body
 
+##### Callback de collision / information de collision
+
 ##### HotZones
 
 ##### Character controller
+
+##### Box2D
 
 ##### Demembration / Mutilation dynamique
 
@@ -345,6 +363,13 @@ Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliqu
 ##### deffered rendering
 
 ##### foward rendering
+
+#### Decals
+
+#### Architecture
+
+##### Command list
+- Draw commands organized in a parallel thread
 
 #### Particles
 
