@@ -385,6 +385,7 @@ Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliqu
 -> Placement des entity et prefabs
 -> Configuration des systems dans les scene
 -> Configuration des des entity et components
+-> Pixel picker for selection of objects
 
 #### Convertisseur d'assets
 
