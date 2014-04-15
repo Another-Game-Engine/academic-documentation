@@ -340,6 +340,21 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Interfacage des inputs
 
+#### Benchmark
+
+- Scene vertices count
+- Culled vertices count
+- FPS
+- Rendering time
+- Update time
+- Total CPU time
+- Entity count
+- Effect count
+- Particle count
+- Decal count
+- Rigid body count
+- Light count
+
 ### Le moteur graphique
 
 #### High Dynamic Range (HDR)
@@ -365,6 +380,8 @@ Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliqu
 ##### foward rendering
 
 #### Decals
+
+#### Dynamic skybox
 
 #### Architecture
 
