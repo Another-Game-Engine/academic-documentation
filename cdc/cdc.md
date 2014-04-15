@@ -138,16 +138,18 @@ Parmis les nombreuses nouvelles fonctionnalités, ceux qui nous interessent part
 
 Les versions openGL 4.x nous permettent de tirer profit des formidables ressources des GPU modernes. 
 
-En effet un grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que les données soit plus aisément accessible par la carte graphique. 
+Les versions openGL 4.x nous permettent de tirer profit des formidables ressources des GPU modernes.
+En effet un grand nombre de nouvelles fonctionnalités favorisent l'utilisation de la VRAM (mémoire interne au GPU) afin que les données soient plus aisément accessible par la carte graphique.
 De plus certaines de ses fonctionnalités - telles que le "compute" OpenGL - permettent de supplanter certaines librairies comme OpenCL en matière d'utilisation GPU.
 
-Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcul massivement parallel. Grace au soutien du constructeur AMD nous avons la possibilité d'avoir des retours sur l'utilisation de ce materiel de plus en plus puissant et prometteur.
+Ainsi AGE a pour ambition de suivre l'exceptionnel croissance du marché du calcul massivement parallèles. Grace au soutien du constructeur AMD nous avons la possibilité d'avoir des retours sur l'utilisation de ce matériel de plus en plus puissant et prometteur.
 
 #### GLSL 
 
-GLSL est un langage permettant l'écriture de shaders, nous l'utilison aujourd'hui dans sa version 400.
+GLSL est un langage permettant l'écriture de shaders, nous l'utilisons aujourd'hui dans sa version 400.
 
-AGE a pour objectif de déporter un maximum de ses calculs en GLSL dans des shaders, afin de les parallèliser au maximum sur le GPU pour un traitement plus rapide.
+AGE a pour objectif de déporter un maximum de ses calculs en GLSL dans des shaders, afin de les paralléliser au maximum sur le GPU pour un traitement plus rapide.
+
 // à améliorer
 
 ### Plateformes et outils de developpement
@@ -269,7 +271,7 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 #### High Dynamic Range (HDR)
 
-le HDR est un post effet permettant de simuler, et cela dynamiquement, le fonctionnement de la rétine lors d'un éblouissement.
+le HDR est un post effet permettant de simuler et cela dynamiquement, le fonctionnement de la rétine lors d'un éblouissement.
 
 #### Dynamic Shadow Mapping
 
@@ -277,11 +279,11 @@ Technique permettant la mise en place d'ombre réaliste calculer dynamiquement.
 
 #### Reflection Mapping
 
-Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un mirroir et cela de maniére sphèrique.
+Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un miroir et cela de manière sphérique.
 
 #### Anti-Aliasing
 
-Afin de réduire le crénelage de notre géomètrie dans nos images de rendus, nous appliquerons l'alogorithme FXAA ainsi que le sampling MSAA.
+Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliquerons l'algorithme FXAA ainsi que le sampling MSAA.
 
 #### Tile Base rendering
 
@@ -370,29 +372,28 @@ GLM est une libraire de mathématique quasiment integré à openGL. Elle nous pe
 
 ##### Issues - Milestones
 
-Afin de favorisé la communication durant le dévelloppement, nous utiliserons le système d'Issue et de Milestones proposé par GitHub. Chaques nouvelle implementation, mise à jour ou débuggage seront précédé par une issue assigné au membre de l'équipe concerné. Ceci permettra une bonne visibilité sur la totalité des taches à abattrent ainsi que de leur réalisation.
+Afin de favoriser la communication durant le développement, nous utiliserons le système d'issue et de Milestones proposé par GitHub. Chaque nouvelle implémentation, mise à jour ou débogage seront précédés par une issue assigné au membre de l'équipe concernée. Ceci permettra une bonne visibilité sur la totalité des tâches à abattre ainsi que de leur réalisation.
 
-Les Milestones permettront de placer ces issues dans un contexte de temps afin d'imposer des échèances au diverses parties du projet.
+Les Milestones permettront de placer ces issues dans un contexte de temps afin d'imposer des échéances au diverses parties du projet.
 
 ##### Pull request
 
-Chaque nouvelle fonctionnalité majeur devra être validé par l'ensemble du groupe avant d'être merger au coeur du projet, ceci afin de garantire la stabilité du code finale.
-
-Pour ce faire nous utiliserons le systéme de pull request et de branche offert par github.
+Chaque nouvelle fonctionnalité majeure devra être validé par l'ensemble du groupe avant d'être mergé au coeur du projet, ceci afin de garantir la stabilité du code finale.
+Pour ce faire nous utiliserons le système de pull request et de branche offert par github.
 La base du projet sera sur la branche dite "master".
-Le reste du dévelloppement se fera sur des branches parallêles.
+Le reste du développement se fera sur des branches parallèles.
 
 ##### Wiki
 
 Le Wiki comprendra deux genres de documentation:
-- En premier lieu, un plan détailler de l'architecture du moteur ainsi que de c'est divers fonctionnalité et de leur utilisation. Cette documentation a pour objectif d'aider les utilisateurs potentiel à prendre en main le moteur de jeu.
-- ensuite une documentation aux objectif plus axé "recherche et dévellopement", qui décrira le fonctionnement certaine implémentation plus complexe comme par exemple "Tile Foward rendering". Afin de pouvoir soumettre au interressé un retour d'experience sur les problème rencontrer, les solution apporté et le résultat obtenus.
+- D'abord, un plan détaillé de l'architecture du moteur ainsi que de ses diverses fonctionnalités et de leur utilisation. Cette documentation a pour objectif d'aider les utilisateurs potentiels à prendre en main le moteur de jeu.
+- ensuite une documentation aux objectifs plus axé "recherche et développement", qui décrira le fonctionnement certaine implémentation plus complexe comme par exemple "Tile Foward rendering". Afin de pouvoir soumettre aux interressés un retour d'expérience sur les problèmes rencontrés, les solutions apportés et le résultat obtenus.
 
 #### Google Mailing List
 
 Afin de communiquer efficacement par mail, nous avons mis en place grâce aux outils googles une mailling list baptisé Ageproject.
 
-La quasi totalité de notre communication interne se fera soit part cette ML, soit par Hang Out.
+La quasi totalité de notre communication interne se fera soit par cette ML, soit par Hang Out.
 
 Vous décrirez ici les cas de réutilisation des composants déjà existants sur lesquels vous vous 
 basez, leurs caractéristiques principales, leur cycle de vie et leur dépendance à votre projet. 
