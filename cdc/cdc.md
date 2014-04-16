@@ -275,6 +275,10 @@ votre projet (depuis l’environnement de développement à l’environnement de
 
 ##### Demembration / Mutilation dynamique
 
+##### Ragdoll
+
+##### Interfacage pour multi lib
+
 #### Gameplay
 
 ##### NavMesh
@@ -306,6 +310,8 @@ votre projet (depuis l’environnement de développement à l’environnement de
 ##### Sound emitter / Sound reciever
 
 ##### Reverb
+
+##### Interfacage pour multi libs
 
 ##### Sound culling (blocage du son sur obstacle)
 
@@ -354,6 +360,7 @@ votre projet (depuis l’environnement de développement à l’environnement de
 - Decal count
 - Rigid body count
 - Light count
+- Update time persystem
 
 ### Le moteur graphique
 
