@@ -371,13 +371,23 @@ Effet utilisant le sampler opengl "Cube Map" afin de simuler le visuel d'un miro
 
 #### Anti-Aliasing
 
-Afin de réduire le crénelage de notre géométrie dans nos rendu, nous appliquerons l'algorithme FXAA ainsi que le sampling MSAA.
+Afin de réduire le crénelage dans nos rendu, nous appliquerons l'algorithme FXAA permettant de diminuer drastiquement la pixelisations des bords de nos géométries.
 
 #### Tile Base rendering
 
+Le "tile based light culling" est une méthode de "culling" des lumières permettant de ne calculer l'influence des lumières uniquement sur les zones de l'écran influencées par celles-ci.
+Ainsi, si une scène à un grand nombre de lumières dynamiques, nous n'allons pas calculer l'illumination que chaqu'une d'entres elles provoque sur chaque pixel de notre écran, mais juste celles qui influencent réellement la zone de l'écran dans laquelle se situe le pixel.
+
 ##### deffered rendering
 
+Nous allons coupler la technique du "tile based rendering" avec une méthode de rendu appellée "Deffered rendering" et permettant le calcul des lumières uniquement sur les "fragment" réellement affichée.
+Ainsi, si un fragment passe le test du light culling mais ne fait pas partie du rendu final, car il est par exemple caché par une géometrie qui s'affichera par dessus, les influences des différentes lumières ne seront pas calculées pour celui-ci.
+Cet effet permet aussi la mise en place de nombreux algorithme, comme par exemple de la global illumination.
+
 ##### foward rendering
+
+Nous proposerons aussi une méthode de rendu "classique", permettant notemment de rendre des objets semi-transparents dans nos scenes.
+Cette méthode va juste rendre tous les objets de la scene, sans tenir compte du fait qu'il soit cachés par quelconque géometrie.
 
 #### Decals
 
