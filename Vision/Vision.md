@@ -25,9 +25,11 @@ Voici une table des définitions et acronymes, anglicismes utilisés dans ce doc
 - Frame : Image généré par un moteur graphique. Plus le nombre de frame généré par seconde est important plus l’animation à l'écran paraitrons fluide.
 - FPS : Frame Per Second indique le nombre de frame affiché par seconde. (Excellent indicateur de performance au niveau du moteur graphique)
 - Moteur de jeu : Programme composé de multiple module permettant la création d'environnement virtuelle 3D ou (et) 2D (Jeux vidéo, simulateur).
-- Moteur physique : module composant le moteur de jeu permettant la gestion de la physique dans un environnement 3D et 2D, telle que les collisions, les chutes etc.
-- Moteur graphique : module composant le moteur de jeu permettant la gestion et la génération des éléments visibles dans une scène 3D.
-- OpenGL: API graphique permettant un contrôle sur le matériel type GPU ainsi que sur sa mémoire. Ceci afin de pouvoir affiché des polygones tels que des triangles à l'écran.
+- Moteur physique : module composant le "moteur de jeu" permettant la gestion de la physique dans un environnement 3D et 2D, telle que les collisions, les chutes etc.
+- Moteur graphique : module composant le "moteur de jeu" permettant la gestion et la génération des éléments visibles dans une scène 3D comme 2D.
+- OpenGL: API graphique permettant un contrôle sur le matériel type GPU ainsi que sur sa mémoire.
+- GPU: Le Graphic Process Unit, aussi appelé carte graphique, est l'élément sur les ordinateurs utilisé pour la résolution des calculs permettant l'affichage final d'images à l'écran.
+- Entity Component : 
 
 ## Références
 Voici une table des références vers d’autres documents du projet et/ou sources documentaires :
@@ -43,8 +45,9 @@ Un petit lien sympa pour présenter le potentiel immersif de l’Oculus, une ét
 
 ## Modules Principaux
 
-- Le module graphique : Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traiter et optimisé au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce bié nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
-- Le moteur physique : Il s'agit du module responsable de la gestion des interaction entre les divers objets 3D de nos scène ainsi que de la gravité. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable déjà présente sur des produits notable telle que Blender.
+- Le module graphique : Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traiter et optimisé au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce biais nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
+- Le moteur physique : Il s'agit du module responsable de la gestion des interactions entre les divers objets 3D de nos scènes ainsi que de la gravité. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable déjà présente sur des produits notable telle que Blender.
+- Le Core : Considéré comme le cœur du moteur de jeu, il s'agit du module responsable de la logique. Il orchestre l'ensemble des autres modules dans une architecture cohérente, maintenable et optimisé. Sur AGE, le core présente un modèle de type "Entity Component", ceci afin de garantir une flexibilité dans son utilisation et son développement.
 
 # Produit et Solution
 
@@ -67,7 +70,8 @@ Améliorer mon UML Cas d’utilisation
 
 ## Infrastructure
 Vous présenterez dans cette section, les choix physique d’architecture, l’infrastructure et les produits mis en œuvre dans votre projet.
-- Carte graphique ?
+- Occulus Rift :
+- Carte graphique : 
 
 ## Composants logiciels
 Vous présenterez ici un comparatif et le choix des composants utilisés dans le projet. Vous devrez le présenter en suivant un comparatif objectif et une notation sur des critères que vous définirez.
@@ -94,8 +98,8 @@ Puisque César à payé la totalité du matériel (?), nous avons convenus qu’
 Le prix d’un Oculus Rift est de : nbr euros.
 
 ## Ressources 3D
-Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et la performance du moteur de jeu. Les démos qui résulteront de ces tests serviront également également à présenter notre produit et à communiquer autour de lui.
-L’équipe a donc besoin d’une bibliothèque de ressources 3D élaborées.
+Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et la performance du moteur de jeu. Les démos qui résulteront de ces tests serviront également à présenter notre produit et à communiquer autour de lui.
+L’équipe a donc besoin d’une bibliothèque de ressources 3D élaborées, constitué de modéle 3D ainsi que des textures associé (bump map, normal map, diffuse map).
 
 Nous avons estimés le prix de ces ressources 3D à : nbr euros.
 
