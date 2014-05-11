@@ -63,14 +63,31 @@ Vous présenterez ici un comparatif et le choix des composants utilisés dans le
 - Des drivers ptet ?
 Intégration de la matrice de comparaison
  
-## Multi OS et Multi DB
+## Multi OS
 
-### Multi OS
-Argumentation sur l’aspect non-multi OS
+Notre projet consistant principalement à exploiter la technologie OpenGL 4, nous ne pourrons pas nous rendre compatible avec les systèmes d'eploitation autres que Windows.
+En effet, les drivers des cartes graphiques sur Linux ne supportent pas cette version d'OpenGL.
+Pour autant, le reste de notre moteur sera entièrement portable car nous avons choisis uniquement des bibliothèques et technologies multi-plateforme
 
-### Multi DB
-N/A
- 
+__________________________________________________________________
+| Technologie         |    Plateforme(s) supportée(s)            |
+|_____________________|__________________________________________|
+| Moteur de jeu:                                                 |
+|----------------------------------------------------------------| 
+| C++ 11 (et STL)          Windows, Linux, Mac                   |
+| Cereal                   Windows, Linux, Mac                   |
+| Bullet                   Windows, Linux, Mac, Consoles de jeux |
+| FMOD                     Windows, Linux, Mac, Consoles de jeux |
+| OpenGL 4                 Windows                               |
+|________________________________________________________________|
+| Outils:                                                        |
+|----------------------------------------------------------------|
+| Qt                       Windows, Linux, Mac                   |
+| FBXsdk                   Windows, Linux, Mac                   |
+|________________________________________________________________|
+
+Nous esperons donc pouvoir, dès la sortie des drivers adéquats sur Linux, pouvoir rendre notre produit multi OS.
+
 # Synthèse budgétaire
 
 ## L’Occulus Rift
