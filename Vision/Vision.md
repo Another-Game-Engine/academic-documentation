@@ -19,9 +19,16 @@ Nous souhaitons, à travers AGE offrir aux développeurs un outil de création d
 
 ## Définitions, Acronymes et Abréviations
 Voici une table des définitions et acronymes, anglicismes utilisés dans ce document :
-API : une Application Programming Interface est un ensemble de classes, méthodes ou fonctions permettant d’utiliser les fonctionnalités proposées par une bibliothèque ou un service.
-Oculus Rift : un casque de réalité virtuelle, lancé en 2012 grâce à une campagne Kickstarter. Il est pour l'instant disponible uniquement dans sa version de kit de développement et est le casque de réalité virtuel le plus attendu sur le marché de l’immersion vidéo-ludique.
- 
+- API : une Application Programming Interface est un ensemble de classes, méthodes ou fonctions permettant d’utiliser les fonctionnalités proposées par une bibliothèque ou un service.
+- Oculus Rift : un casque de réalité virtuelle, lancé en 2012 grâce à une campagne Kickstarter. Il est pour l'instant disponible uniquement dans sa version de kit de développement et est le casque de réalité virtuelle le plus attendu sur le marché de l’immersion vidéo-ludique.
+- Shader : Petit programme utilisé par la carte graphique afin de générer une "frame"(voir ci-dessous). Ces shader permettent de constituer la "plastique" des éléments constituant l'environnement 3D d'un moteur de jeu. En effet, ce sont ce genre de programme qui applique les transformations (géométrique), les textures, ou encore les calculs de lumières essentielle au réalisme.
+- Frame : Image généré par un moteur graphique. Plus le nombre de frame généré par seconde est important plus l’animation à l'écran paraitrons fluide.
+- FPS : Frame Per Second indique le nombre de frame affiché par seconde. (Excellent indicateur de performance au niveau du moteur graphique)
+- Moteur de jeu : Programme composé de multiple module permettant la création d'environnement virtuelle 3D ou (et) 2D (Jeux vidéo, simulateur).
+- Moteur physique : module composant le moteur de jeu permettant la gestion de la physique dans un environnement 3D et 2D, telle que les collisions, les chutes etc.
+- Moteur graphique : module composant le moteur de jeu permettant la gestion et la génération des éléments visibles dans une scène 3D.
+- OpenGL: API graphique permettant un contrôle sur le matériel type GPU ainsi que sur sa mémoire. Ceci afin de pouvoir affiché des polygones tels que des triangles à l'écran.
+
 ## Références
 Voici une table des références vers d’autres documents du projet et/ou sources documentaires :
 Le cahier des charges V1 du projet AGE
@@ -29,10 +36,15 @@ Un petit lien sympa pour présenter le potentiel immersif de l’Oculus, une ét
 
 # Besoins du projet
 
-## présentez ici une liste des besoins du projet. Une sous partie par besoin, suivit d’une ou deux phrases de description.
- 
+## Liste des besoins du projet (Une sous partie par besoin, suivit d’une ou deux phrases de description)
+
+- L'Oculus Rift se présente comme un besoin essentielle au développement de notre projet. Il rentre dans le cadre de l'objectif d'immersion de l'utilisateur dans un environnement virtuelle. En effet, il permettra à AGE d'offrir de nouvelles possibilités d'interface avec les environnements généré.
+
+
 ## Modules Principaux
-Liste et présentation des modules principaux du projet. Une sous partie par module suivit d’un paragraphe de description.
+
+- Le module graphique : Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traiter et optimisé au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce bié nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
+- Le moteur physique : Il s'agit du module responsable de la gestion des interaction entre les divers objets 3D de nos scène ainsi que de la gravité. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable déjà présente sur des produits notable telle que Blender.
 
 # Produit et Solution
 
