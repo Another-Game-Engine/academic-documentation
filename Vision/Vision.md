@@ -70,7 +70,7 @@ Améliorer mon UML Cas d’utilisation
 
 ## Infrastructure
 Vous présenterez dans cette section, les choix physique d’architecture, l’infrastructure et les produits mis en œuvre dans votre projet.
-- Occulus Rift :
+- Oculus Rift : 
 - Carte graphique : 
 
 ## Composants logiciels
@@ -108,14 +108,14 @@ Nous esperons donc pouvoir, dès la sortie des drivers adéquats sur Linux, pouv
 
 ## L’Occulus Rift
 L’équipe de développement d’AGE disposera dans peu de temps de son propre Oculus Rift, commandé au cours du mois d’avril 2014, avec les moyens de l’équipe. Cependant, les deux membres de l’équipe s’occupant de l’intégration de l’Oculus Rift ne poursuivront pas leur quatrième année dans le même pays, soit :
-César Leblic (leblic_c) sera à école (Pays) de mois année à mois année.
-Anthony Boucher (bouche_a) quant à lui passera son année à école (Pays) de mois année à mois année.
-Puisque César à payé la totalité du matériel (?), nous avons convenus qu’il conserverait l’Occulus Rift avec lui lors de son année à l’étranger. Mais nous souhaitons disposer d’un second Oculus Rift le temps de nbr mois pour Anthony Boucher, lors de son année en Pays.
+César Leblic (leblic_c) sera à école (Canada) de mois année à mois année.
+Anthony Boucher (bouche_t) quant à lui passera son année à école (Etats-Unis) de mois année à mois année.
+Puisque César à payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaitons disposer d’un second Oculus Rift le temps de 12 mois pour Anthony Boucher, 4 mois lors du début de sa 4ème année et 8 mois lors de son année en Pays.
 
-Le prix d’un Oculus Rift est de : nbr euros.
+Le prix d’un Oculus Rift est de : 350 dollars.
 
 ## Ressources 3D
-Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et la performance du moteur de jeu. Les démos qui résulteront de ces tests serviront également à présenter notre produit et à communiquer autour de lui.
+Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et la performance du moteur de jeu. Les démonstrations qui résulteront de ces tests serviront également à présenter notre produit et à communiquer autour de lui.
 L’équipe a donc besoin d’une bibliothèque de ressources 3D élaborées, constitué de modéle 3D ainsi que des textures associé (bump map, normal map, diffuse map).
 
 Nous avons estimés le prix de ces ressources 3D à : nbr euros.
