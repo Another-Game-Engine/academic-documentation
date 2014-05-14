@@ -34,20 +34,26 @@ Voici une table des définitions et acronymes, anglicismes utilisés dans ce doc
 ## Références
 Voici une table des références vers d’autres documents du projet et/ou sources documentaires :
 Le cahier des charges V1 du projet AGE
-Un petit lien sympa pour présenter le potentiel immersif de l’Oculus, une étude par exemple
 
 # Besoins du projet
 
-## Liste des besoins du projet (Une sous partie par besoin, suivit d’une ou deux phrases de description)
+## Liste des besoins du projet
 
-- L'Oculus Rift se présente comme un besoin essentielle au développement de notre projet. Il rentre dans le cadre de l'objectif d'immersion de l'utilisateur dans un environnement virtuelle. En effet, il permettra à AGE d'offrir de nouvelles possibilités d'interface avec les environnements généré.
+### L'Oculus Rift
+Ce casque de réalité virtuelle est l'un besoin essentiel au projet puisqu'il permettra à AGE d'offrir aux utilisateurs de nouvelles possibilités d'interface avec les environnements générés. Il rentre dans le cadre de l'objectif d'immersion de l'utilisateur dans un environnement virtuel.
 
+### Machines performantes
 
 ## Modules Principaux
 
-- Le module graphique : Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traiter et optimisé au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce biais nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
-- Le moteur physique : Il s'agit du module responsable de la gestion des interactions entre les divers objets 3D de nos scènes ainsi que de la gravité. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable déjà présente sur des produits notable telle que Blender.
-- Le Core : Considéré comme le cœur du moteur de jeu, il s'agit du module responsable de la logique. Il orchestre l'ensemble des autres modules dans une architecture cohérente, maintenable et optimisé. Sur AGE, le core présente un modèle de type "Entity Component", ceci afin de garantir une flexibilité dans son utilisation et son développement.
+### Le module graphique
+Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traiter et optimisé au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce biais nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
+
+### Le moteur physique
+Il s'agit du module responsable de la gestion des interactions entre les divers objets 3D de nos scènes ainsi que de la gravité. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable déjà présente sur des produits notable telle que Blender.
+
+### Le Core
+Considéré comme le cœur du moteur de jeu, il s'agit du module responsable de la logique. Il orchestre l'ensemble des autres modules dans une architecture cohérente, maintenable et optimisé. Sur AGE, le core présente un modèle de type "Entity Component", ceci afin de garantir une flexibilité dans son utilisation et son développement.
 
 # Produit et Solution
 
@@ -106,11 +112,11 @@ Nous esperons donc pouvoir, dès la sortie des drivers adéquats sur Linux, pouv
 
 # Synthèse budgétaire
 
-## L’Occulus Rift
+## L’Oculus Rift
 L’équipe de développement d’AGE disposera dans peu de temps de son propre Oculus Rift, commandé au cours du mois d’avril 2014, avec les moyens de l’équipe. Cependant, les deux membres de l’équipe s’occupant de l’intégration de l’Oculus Rift ne poursuivront pas leur quatrième année dans le même pays, soit :
-César Leblic (leblic_c) sera à école (Canada) de mois année à mois année.
-Anthony Boucher (bouche_t) quant à lui passera son année à école (Etats-Unis) de mois année à mois année.
-Puisque César à payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaitons disposer d’un second Oculus Rift le temps de 12 mois pour Anthony Boucher, 4 mois lors du début de sa 4ème année et 8 mois lors de son année en Pays.
+ - César Leblic (leblic_c) sera à école (Canada) de mois année à mois année.
+ - Anthony Boucher (bouche_t) quant à lui passera son année à école (Etats-Unis) de mois année à mois année.
+Puisque César à payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaitons disposer d’un second Oculus Rift le temps de 12 mois pour Anthony Boucher, 4 mois lors du début de sa quatrième année en France et 8 mois lors de son année aux États-Unis.
 
 Le prix d’un Oculus Rift est de : 350 dollars.
 
