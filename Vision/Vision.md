@@ -101,7 +101,7 @@ Open Collada    Open source    .dae              Modèles, Animations, Lumières
 Blitz3D SDK     Open source    .b3d              Modèles, Animations, Matériaux
 Fbx SDK         Propriétaire   .fbx, .dae, .obj  Modèles, Animations, Lumières, Caméras, Matériaux
 
-Comme vous pouvez le voir, le Fbx SDK développé par Autodesk permet le chargement de tous les types de fichier les plus utilisés par les infographistes 3D sans contraintes d'exportation (pas de plugin à installer sur les Blender ou 3dsmax par exemple). Notre choix c'est donc orienté vers cette bibliothèque.
+Comme vous pouvez le voir, le Fbx SDK développé par Autodesk permet le chargement de tous les types de fichier les plus utilisés par les infographistes 3D sans contraintes d'exportation (pas de plugin à installer sur Blender ou 3dsmax par exemple). Notre choix c'est donc orienté vers cette bibliothèque.
 
 Il était aussi important de choisir un outils permettant de sérialiser facilement des scènes de notre moteur de jeu, de facon à pouvoir les recharger facilement. Le but était donc de trouver une bibliothèque rapide et permettant l'export en différents types de formats (en ASCII pour pouvoir éditer les fichiers à la main facilement et en binaire pour gagner du temps de chargement). Voici le tableau permettant de comparer les différentes bibliothèques existantes:
 
