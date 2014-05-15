@@ -75,23 +75,6 @@ Améliorer mon UML Cas d’utilisation
 # Choix des technologies
 
 ## Infrastructure
-L’immersion étant l’un des points fort d’AGE, le moteur offrira le support d’un casque de réalité virtuelle. Aujourd’hui, le marché comprend deux prototypes majeurs, l’Oculus Rift de VR et le Morpheus de Sony, ainsi qu’une multitude de projets qui ne sont pas encore aboutis.
-
-Casque             Accessible aux developpeurs   Plateforme                      Popularité  Prix
-___________________________________________________________________________________________________________
-Oculus Rift de VR  oui                           destiné à être multi-plateforme   forte     350$
-___________________________________________________________________________________________________________
-Morpheus de Sony   non                           PS4                               moyenne    environ 1000$
-___________________________________________________________________________________________________________
-
-En plus d’être le plus prometteur de ces périphériques sur le marché, l’Oculus Rift est le choix qui s’est imposé à nous grâce à son faible prix, son accessibilité aux développeurs, et son support de la plateforme Windows.
-
-Les ordinateurs cibles (des ordinateurs portables ou des ordinateurs de bureau) nécessiteront les configuration suivantes :
-CPU :
-    architecture x86
-    architecture x64
-GPU :
-    Carte graphique ayant une version Opengl 4.x minimum
 
 ## Composants logiciels
 Vous présenterez ici un comparatif et le choix des composants utilisés dans le projet. Vous devrez le présenter en suivant un comparatif objectif et une notation sur des critères que vous définirez.
