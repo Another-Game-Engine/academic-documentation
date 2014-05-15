@@ -44,15 +44,15 @@ Ce casque de réalité virtuelle est l'un besoin essentiel au projet puisqu'il p
 
 ### Machines performantes
 
-AGE reposant sur l'utilisation des dernieres inovations graphiques (OpenGL 4.3), il sera necessaire a l'equipe de developement, d'avoir acces a du materiel recent et performant. En effet, seul les cartes graphiques de derniere generation presentent la capacite necessaire au la bonne execution d'AGE.
+AGE reposant sur l'utilisation des dernières innovations graphiques (OpenGL 4.3), il sera nécessaire a l'équipe de développement, d'avoir accès a du matériel récent et performant. En effet, seul les cartes graphiques de dernière génération présentent la capacité nécessaire au la bonne exécution d'AGE.
 
 ## Modules Principaux
 
 ### Le module graphique
-Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traités et optimisés au travers d'une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce biais nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
+Ce module utilisera la puissante API OpenGL afin de générer les images visibles à l'écran. Chacune de ces images sera le fruit d'une accumulation d'effet dit "Shader" qui seront traités et optimisés au travers d’une "pipeline" conçu par nos soin. De plus, Ce module aura pour objectif de partager un maximum de tâche par le GPU par l'intermédiaire d'OpenGL, afin que celui-ci prenne en charge les calculs redondant (calcule matricielle, interpolation). Par ce biais nous espérons pouvoir traité un grand nombre d'élément dans nos scène tous en garantissant des performances (nombre de FPS) acceptables.
 
 ### Le moteur physique
-Il s'agit du module responsable de la gestion des interactions entre les divers objets 3D de nos scènes. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable, présente dans beaucoup de realisation professionnelles (Blender, GTA, Shrek).
+Il s'agit du module responsable de la gestion des interactions entre les divers objets 3D de nos scènes. Pour ce faire, nous utiliserons la technologie libre "Bullet", puissante et stable, présente dans beaucoup de réalisation professionnelles (Blender, GTA, Shrek).
 
 ### Le Core
 Considéré comme le cœur du moteur de jeu, il s'agit du module responsable de la logique. Il orchestre l'ensemble des autres modules dans une architecture cohérente, maintenable et optimisé. Sur AGE, le core présente un modèle de type "Entity Component", ceci afin de garantir une flexibilité dans son utilisation et son développement.
@@ -133,13 +133,13 @@ Nous esperons donc pouvoir, dès la sortie des drivers adéquats sur Linux, pouv
 L’équipe de développement d’AGE disposera dans peu de temps de son propre Oculus Rift, commandé au cours du mois d’avril 2014, avec les moyens de l’équipe. Cependant, les deux membres de l’équipe s’occupant de l’intégration de l’Oculus Rift ne poursuivront pas leur quatrième année dans le même pays, soit :
  - César Leblic (leblic_c) sera à Concordia (Canada) d'Aout 2014 à Juin 2015.
  - Anthony Boucher (bouche_t) quant à lui passera son année à San Marco (Etats-Unis) de mois année à mois année.
-Puisque César à payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaiterions disposer d’un second Oculus Rift pour une durée de 12 mois pour Anthony Boucher, 4 mois lors du début de sa quatrième année en France et 8 mois lors de son année aux États-Unis.
+César ayant payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaiterions disposer d’un second Oculus Rift pour une durée de 12 mois pour Anthony Boucher, 4 mois lors du début de sa quatrième année en France et 8 mois lors de son année aux États-Unis.
 
-Le prix d’un Oculus Rift est de : 350 dollars + frais de port 50 dollars.
+Le prix d’un Oculus Rift est de : 350 dollars plus frais de port 50 dollars.
 
 ## Ressources 3D
-Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et les performances du moteur de jeu. Les démonstrations qui résulteront de ces tests serviront également à présenter notre produit et à communiquer sur celui ci.
-L’équipe a donc besoin d’une bibliothèque de ressources 3D élaborées, constituée de modéle 3D ainsi que de textures de qualité (bump map, normal map, diffuse map).
+Au cours du développement d’AGE, des tests seront effectués afin de valider l’utilisabilité et les performances du moteur de jeu. Les démonstrations qui résulteront de ces tests serviront également à présenter notre produit et à communiquer sur celui-ci.
+L’équipe a donc besoin d’une bibliothèque de ressources 3D élaborées, constituée de modèle 3D ainsi que de textures de qualité (bump map, normal map, diffuse map).
 
 Nous avons estimés le prix de ces ressources 3D à : nbr euros.
 
