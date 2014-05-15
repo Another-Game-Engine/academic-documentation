@@ -126,6 +126,7 @@ FMOD          Windows, Mac, Linux, consoles   Propriétaire   Payant    Haut niv
 
 Nous nous sommes finalement orienté vers FMOD car ... bah je sais pas pourquoi en fait, OpenAL à l'air cool quand même :P
 
+Nous utilisons aussi la bibliothèque FreeType permettant de charger des polices d'écriture de manière à pouvoir afficher du texte facilement dans nos scènes 3D.
  
 ## Multi OS
 
