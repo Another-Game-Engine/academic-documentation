@@ -128,8 +128,8 @@ Nous esperons donc pouvoir, dès la sortie des drivers adéquats sur Linux, pouv
 
 ## L’Oculus Rift
 L’équipe de développement d’AGE disposera dans peu de temps de son propre Oculus Rift, commandé au cours du mois d’avril 2014, avec les moyens de l’équipe. Cependant, les deux membres de l’équipe s’occupant de l’intégration de l’Oculus Rift ne poursuivront pas leur quatrième année dans le même pays, soit :
- - César Leblic (leblic_c) sera à école (Canada) de mois année à mois année.
- - Anthony Boucher (bouche_t) quant à lui passera son année à école (Etats-Unis) de mois année à mois année.
+ - César Leblic (leblic_c) sera à Concordia (Canada) de mois année à mois année.
+ - Anthony Boucher (bouche_t) quant à lui passera son année à San Marco (Etats-Unis) de mois année à mois année.
 Puisque César à payé la totalité du matériel, nous avons convenus qu’il conserverait l’Oculus Rift avec lui lors de son année à l’étranger. Mais nous souhaitons disposer d’un second Oculus Rift le temps de 12 mois pour Anthony Boucher, 4 mois lors du début de sa quatrième année en France et 8 mois lors de son année aux États-Unis.
 
 Le prix d’un Oculus Rift est de : 350 dollars.
