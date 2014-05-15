@@ -77,10 +77,55 @@ Améliorer mon UML Cas d’utilisation
 ## Infrastructure
 
 ## Composants logiciels
-Vous présenterez ici un comparatif et le choix des composants utilisés dans le projet. Vous devrez le présenter en suivant un comparatif objectif et une notation sur des critères que vous définirez.
-- Pourquoi bullet ? Pourquoi pas Phisics ?
-- Des drivers ptet ?
-Intégration de la matrice de comparaison
+
+Nous utilisons dans notre moteur de jeu plusieurs bibliothèques externes.
+
+Tout d'abord, pour la gestion de la physique, nous avons choisi d'utiliser Bullet.
+Voici une matrice de comparaison des différents moteurs physiques existants permettant de comparer leurs avantages et inconvénients:
+
+Nom                      Plateformes                        Licence        GPU / CPU          Puissance
+
+Nvidia PhysX             Consoles, Windows, Linux           Propriétaire   GPU et CPU         Très perfomant
+Newton Game Dynamics     Windows, Mac, IOS, Linux           Open Source    CPU (GPU en Beta)  Moyennement performant
+Open Dynamics Engine     Windows, Mac, Linux                Open Source    CPU                Moyennement performant
+Tokamak                  Windows, Mac, Linux                Open Source    CPU                Moyennement performant
+Bullet                   PS3, Windows, Mac, Linux           Open Source    CPU et GPU         Très performant
+
+Bullet s'impose comme la référence des moteurs physiques open source, étant à la fois extrèmement performant et précis, mais permettant aussi une flexibilité que ne permettent pas les autres (il est possible de remplacer chaque partie de la bibliothèque pour pouvoir coder ses propres comportements par exemple).
+
+Nous avons ensuite du choisir une bibliothèque nous permettant de charger nos objets 3D. En effet, il est important de pouvoir travailler avec des graphistes pendant la conception d'un projet, et il est donc nécessaire de pouvoir charger facilement des formats de fichiers permettant de décrire des objets, des scènes, des animations et des matériaux facilement. Voici la matrice de comparaison des différents SDK permettant le chargement de ce genre de fichiers:
+
+Nom             Licence        Format(s)         Supporte
+
+Open Collada    Open source    .dae              Modèles, Animations, Lumières, Caméras, Matériaux
+Blitz3D SDK     Open source    .b3d              Modèles, Animations, Matériaux
+Fbx SDK         Propriétaire   .fbx, .dae, .obj  Modèles, Animations, Lumières, Caméras, Matériaux
+
+Comme vous pouvez le voir, le Fbx SDK développé par Autodesk permet le chargement de tous les types de fichier les plus utilisés par les infographistes 3D sans contraintes d'exportation (pas de plugin à installer sur les Blender ou 3dsmax par exemple). Notre choix c'est donc orienté vers cette bibliothèque.
+
+Il était aussi important de choisir un outils permettant de sérialiser facilement des scènes de notre moteur de jeu, de facon à pouvoir les recharger facilement. Le but était donc de trouver une bibliothèque rapide et permettant l'export en différents types de formats (en ASCII pour pouvoir éditer les fichiers à la main facilement et en binaire pour gagner du temps de chargement). Voici le tableau permettant de comparer les différentes bibliothèques existantes:
+
+Nom            Langage    Licence       ASCII / Binaire    Format                Taille de la bibliothèque
+
+Boost          C++        Open source   ASCII et Binaire   Xml, Custom, Binaire  Très importante
+libs JSon      C / C++    Open source   ASCII              Json                  Très faible
+libs Xml       C / C++    Open source   ASCII              Xml                   Très faible
+protobuf       C++        Open source   Binaire            Binaire               Faible
+Cereal         C++11      Open source   ASCII et Binaire   Xml, Json, Binaire    Moyenne
+
+Nous avons donc choisi "cereal" car il s'agit de la librairie nous offrant la plus grande flexibilité quand au formats d'écriture en plus d'être assez légère. De plus, étant codé en C++11, elle offre des facilités syntaxiques que les autres ne peuvent proposer.
+
+Enfin, il était important de choisir une bibliothèque permettant de lire du son, ce qui est essentiel dans un moteur de jeu. Pour cela, nous avons du choisir entre ces différents composants:
+
+Nom           Plateformes                     Licence        Prix      Haut / Bas niveau       Son 3D
+
+PortAudio     Windows, Mac, Linux             Open source    Gratuit   Bas niveau              Non
+OpenAL        Windows, Mac, Linux             Open source    Gratuit   Haut niveau             Oui
+SDL Mixer     Windows, Mac, Linux             Open source    Gratuit   Bas niveau              Oui
+FMOD          Windows, Mac, Linux, consoles   Propriétaire   Payant    Haut niveau             Oui
+
+Nous nous sommes finalement orienté vers FMOD car ... bah je sais pas pourquoi en fait, OpenAL à l'air cool quand même :P
+
  
 ## Multi OS
 
