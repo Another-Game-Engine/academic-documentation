@@ -86,7 +86,7 @@ ________________________________________________________________________________
 
 En plus d’être le plus prometteur de ces périphériques sur le marché, l’Oculus Rift est le choix qui s’est imposé à nous grâce à son faible prix, son accessibilité aux développeurs, et son support de la plateforme Windows.
 
-Les ordinateurs cibles (des ordinateurs portables ou des ordinateurs de bureau) nécessiteront les configuration suivantes :
+Les ordinateurs cibles (des ordinateurs portables ou des ordinateurs de bureau) nécessiteront les configurations suivantes :
 CPU :
     architecture x86
     architecture x64
