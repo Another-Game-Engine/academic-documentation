@@ -44,7 +44,7 @@ Ce casque de réalité virtuelle est l'un besoin essentiel au projet puisqu'il p
 
 ### Machines performantes
 
-AGE reposant sur l'utilisation des dernières innovations graphiques (OpenGL 4.3), il sera nécessaire a l'équipe de développement, d'avoir accès a du matériel récent et performant. En effet, seul les cartes graphiques de dernière génération présentent la capacité nécessaire au la bonne exécution d'AGE.
+AGE reposant sur l'utilisation des dernières innovations graphiques (OpenGL 4.x), il sera nécessaire a l'équipe de développement, d'avoir accès a du matériel récent et performant. En effet, seul les cartes graphiques de dernière génération présentent la capacité nécessaire au la bonne exécution d'AGE.
 
 ## Modules Principaux
 
@@ -99,7 +99,7 @@ __________________________________________________________________
 | Cereal                   Windows, Linux, Mac                   |
 | Bullet                   Windows, Linux, Mac, Consoles de jeux |
 | FMOD                     Windows, Linux, Mac, Consoles de jeux |
-| OpenGL 4                 Windows                               |
+| OpenGL 4.x               Windows                               |
 |________________________________________________________________|
 | Outils:                                                        |
 |----------------------------------------------------------------|
