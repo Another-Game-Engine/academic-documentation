@@ -117,14 +117,14 @@ Nous avons donc choisi "cereal" car il s'agit de la librairie nous offrant la pl
 
 Enfin, il était important de choisir une bibliothèque permettant de lire du son, ce qui est essentiel dans un moteur de jeu. Pour cela, nous avons du choisir entre ces différents composants:
 
-Nom           Plateformes                     Licence        Prix      Haut / Bas niveau       Son 3D
+Nom           Plateformes                     Licence        Prix      Haut / Bas niveau  Son 3D    Outils pour sound designers
 
-PortAudio     Windows, Mac, Linux             Open source    Gratuit   Bas niveau              Non
-OpenAL        Windows, Mac, Linux             Open source    Gratuit   Haut niveau             Oui
-SDL Mixer     Windows, Mac, Linux             Open source    Gratuit   Bas niveau              Oui
-FMOD          Windows, Mac, Linux, consoles   Propriétaire   Payant    Haut niveau             Oui
+PortAudio     Windows, Mac, Linux             Open source    Gratuit   Bas niveau         Non       Non
+OpenAL        Windows, Mac, Linux             Open source    Gratuit   Haut niveau        Oui       Non
+SDL Mixer     Windows, Mac, Linux             Open source    Gratuit   Bas niveau         Oui       Non
+FMOD          Windows, Mac, Linux, consoles   Propriétaire   Payant    Haut niveau        Oui       Oui (FMOD Studio)
 
-Nous nous sommes finalement orienté vers FMOD car ... bah je sais pas pourquoi en fait, OpenAL à l'air cool quand même :P
+Nous nous sommes finalement orienté vers FMOD car il s'agit d'une bibliothèque encore mise à jour (la dernière version d'OpenAL date de 2010) et permettant la création d'effets sonores très avancés via l'outil FMOD studio qui permet à des professionels des effets sonores de mettre en place des sons immersifs.
 
 Nous utilisons aussi la bibliothèque FreeType permettant de charger des polices d'écriture de manière à pouvoir afficher du texte facilement dans nos scènes 3D.
  
